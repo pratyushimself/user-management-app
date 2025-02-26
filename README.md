@@ -26,26 +26,27 @@ This is a **full-stack user management application** built with **Spring Boot (B
 - Lombok for clean code
 - CORS configuration for frontend-backend communication
 
-## 🏗️ Project Structure
+🏗️ Project Structure
+📂 Main Project Folder: user-management-app/
+📁 backend/ → Spring Boot backend
 
-user-management-app/
- ├── backend/       # Spring Boot backend
- │   ├── src/main/java/com/example/springbootpostgres/ 
- │   │   ├── controller/    # API controllers
- │   │   ├── model/         # Entity classes
- │   │   ├── repository/    # Database interactions
- │   │   ├── service/       # Business logic
- │   ├── src/main/resources/ # Application properties
- │   ├── pom.xml            # Dependencies (Maven)
- │
- ├── frontend/      # React frontend
- │   ├── src/components/     # UI components
- │   ├── src/pages/          # Pages (Home, AddUser, EditUser)
- │   ├── src/api/userApi.js  # API requests
- │   ├── src/App.js          # Main app structure
- │   ├── package.json        # Dependencies (Node.js)
- │
- ├── README.md      # 📄 Project documentation
+📁 src/main/java/com/example/springbootpostgres/
+📁 controller/ → API controllers
+📁 model/ → Entity classes
+📁 repository/ → Database interactions
+📁 service/ → Business logic
+📁 src/main/resources/ → Configuration files
+📄 pom.xml → Maven dependencies
+📁 frontend/ → React frontend
+
+📁 src/components/ → UI components
+📁 src/pages/ → Pages (Home, AddUser, EditUser)
+📄 src/api/userApi.js → API requests
+📄 src/App.js → Main app structure
+📄 package.json → Node.js dependencies
+📄 README.md → Project documentation
+
+
 
 ## ⚡ Setup Instructions
 ### **1️⃣ Clone the Repository**
